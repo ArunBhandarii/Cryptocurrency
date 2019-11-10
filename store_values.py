@@ -15,5 +15,11 @@ active_currencies = results['data']['active_cryptocurrencies']
 active_markets = results['data']['active_markets']
 bitcoin_percentage = results['data']['bitcoin_percentage_of_market_cap']
 last_updated = results['data']['last_updated']
-global_cap = ['data']['quotes']['USD']['total_market_cap']
-global_volume = 
+global_cap = results['data']['quotes']['USD']['total_market_cap']
+global_volume = results['data']['quotes']['USD']['total_volume_24h']
+print()
+print('There are ' + str(active_currencies) + 'active curencies and' + str(active_markets) + 'active markets.')
+print('The global cap' + str(global_cap) + 'and global volume is' + str(global_volume) + '.')
+print('Bitcoin\'s total global cap is' + str(bitcoin_percentage) + '.')
+print()
+print('The information was last updated on' + last_updated + '.')
