@@ -15,5 +15,5 @@ active_currencies = results['data']['active_cryptocurrencies']
 active_markets = results['data']['active_markets']
 bitcoin_percentage = results['data']['bitcoin_percentage_of_market_cap']
 last_updated = results['data']['last_updated']
-global_cap = 
-global_volume =
+global_cap = ['data']['quotes']['USD']['total_market_cap']
+global_volume = 
