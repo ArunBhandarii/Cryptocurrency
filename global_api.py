@@ -7,4 +7,3 @@ request = requests.get(global_url)
 results = request.json()
 
 print(json.dumps(results, sort_keys=True, indent=4))
-print
