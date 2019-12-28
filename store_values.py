@@ -22,4 +22,4 @@ print('There are ' + str(active_currencies) + 'active curencies and' + str(activ
 print('The global cap' + str(global_cap) + 'and global volume is' + str(global_volume) + '.')
 print('Bitcoin\'s total global cap is' + str(bitcoin_percentage) + '.')
 print()
-print ('The information was last updated on' + last_updated + '.')
+print('The information was last updated on' + last_updated + '.')
