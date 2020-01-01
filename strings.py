@@ -14,7 +14,7 @@ active_currencies = results['data']['active_cryptocurrencies']
 # print(active_cryptocurrencies)
 
 active_markets = results['data']['active_markets']
-bitcoin_percentage = results['data']['bitcoin_percentage_of_market_cap']
+bitcoin_percentage = results ['data']['bitcoin_percentage_of_market_cap']
 last_updated = results['data']['last_updated']
 global_cap = str(results['data']['quotes']['USD']['total_market_cap'])
 global_volume = str(results['data']['quotes']['USD']['total_volume_24h'])
