@@ -29,6 +29,6 @@ last_updated_string = datetime.frontimestamp(last_updated).strftime('%B %d, %Y a
 print()
 print('There are ' + active_currencies_string + 'active curencies and' + active_markets_string + 'active markets.')
 print('The global cap' + global_cap_string + 'and global volume is' + global_volume_string + '.')
-print('Bitcoin\'s total global cap is' + str(bitcoin_percentage) + '.')
+print ('Bitcoin\'s total global cap is' + str(bitcoin_percentage) + '.')
 print()
 print('The information was last updated on' + last_updated_string + '.') 
