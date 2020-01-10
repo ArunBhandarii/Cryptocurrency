@@ -1,7 +1,7 @@
 import json
 import requests
 
-listing_url = 'https://api.coinmarketcap.com/v2/listings/'
+listing_url ='https://api.coinmarketcap.com/v2/listings/'
 
 request = requests.get(listing_url)
 results = request.json()
