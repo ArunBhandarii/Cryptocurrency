@@ -8,6 +8,6 @@ results = request.json()
 
 # print(json.dumps(results, sort_keys=True, indent=4))
 
-active_currencies = requests['data']['active_cryptocurrencies']
+active_currencies = requests ['data']['active_cryptocurrencies']
 
 print(active_currencies)
