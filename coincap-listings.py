@@ -14,4 +14,4 @@ for currency in data:
     rank = currency['id']
     name = currency['name']
     symbol = currency['symbol']
-    print(str(rank) + ': ' + name + ' ( ' + symbol + ')')
+    print(str(rank) + ': ' + name + ' (' + symbol + ')')
