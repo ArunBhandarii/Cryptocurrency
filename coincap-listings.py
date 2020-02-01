@@ -11,7 +11,7 @@ results = request.json()
 data = results['data']
 
 for currency in data:
-    rank = currency['id']
+    rank = currency ['id']
     name = currency['name']
     symbol = currency['symbol']
     print(str(rank) + ': ' + name + ' (' + symbol + ')')
